@@ -142,7 +142,8 @@
       beds: "4 bed",
       baths: "4 bath",
       extra: "350 sqm",
-      price: "₦185,000,000"
+      price: "₦185,000,000",
+      image: "listing1.jpg"
     },
     {
       title: "2-Bed Apartment, Old Ikoyi",
@@ -151,7 +152,8 @@
       beds: "2 bed",
       baths: "2 bath",
       extra: "Serviced",
-      price: "₦6,500,000 / yr"
+      price: "₦6,500,000 / yr",
+      image: "listing2.jpg"
     },
     {
       title: "Waterfront Land Plot",
@@ -160,7 +162,8 @@
       beds: "900 sqm",
       baths: "C of O",
       extra: "Cleared",
-      price: "₦420,000,000"
+      price: "₦420,000,000",
+      image: "listing3.jpg"
     }
   ];
 
@@ -170,7 +173,7 @@
   function renderListingCard(listing) {
     return `
       <div class="listing">
-        <div class="listing-photo"><span class="tag">${listing.tag}</span></div>
+        <div class="listing-photo"><span class="tag">${listing.tag}</span><img src="${listing.image}" alt="${listing.title}"></div>
         <h3>${listing.title}</h3>
         <div class="loc">${listing.location}</div>
         <div class="meta"><span>${listing.beds}</span><span>${listing.baths}</span><span>${listing.extra}</span></div>
