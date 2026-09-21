@@ -386,6 +386,7 @@
     align-items:center;
   }
     .split-visual{
+    order:-1;
     aspect-ratio: 1/1;
     border: 1px solid var(--ink);
     background:
@@ -491,7 +492,7 @@
     .process{ grid-template-columns: 1fr 1fr; }
     .process-step:nth-child(2){ border-right:none; }
     .split{ grid-template-columns: 1fr; }
-    .split-visual{ order:-1; aspect-ratio: 16/9; }
+    .split-visual{ order:-1; aspect-ratio: 1/1; }
     .contact-grid{ grid-template-columns: 1fr; }
     .nav-links{ display:none; }
     .menu-toggle{ display:block; }
