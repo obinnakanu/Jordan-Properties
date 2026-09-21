@@ -54,12 +54,13 @@
     font-size: 1.3rem;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 2px;
     color: var(--white);
   }
   .logo-img{
     height: 57px;
     width: auto;
+    margin-right: 0px;
   }
   .logo span{ color: var(--brass); }
   .nav-links{
