@@ -60,7 +60,7 @@
   .logo-img{
     height: 57px;
     width: auto;
-    margin-right: 0px;
+    margin-left: 0px;
   }
   .logo span{ color: var(--brass); }
   .nav-links{
@@ -69,6 +69,14 @@
     font-size: 0.95rem;
     font-weight:500;
     color: var(--white);
+  }
+  .nav-cta-mobile{
+    margin-top: 8px;
+    padding: 12px 0;
+    text-align: center;
+    background: var(--brass);
+    color: var(--white);
+    font-weight: 600;
   }
   .nav-links a:hover{ color: var(--brass); }
   .nav-cta{
@@ -499,6 +507,7 @@
     .menu-toggle{ display:block; }
     .nav-links-mobile{ display:flex; }
     .stat-row{ flex-wrap:wrap; gap: 28px; }
+    .nav-cta{ display:none; }
   }
 
   @media (max-width: 520px){
